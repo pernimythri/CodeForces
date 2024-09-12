@@ -1,0 +1,17 @@
+import java.util.*;
+public class Solution{
+    String Watermelon(int n){
+     if(n%2==0 && n>3){
+        return "Yes";
+}
+     else
+        return "No";
+       }
+    public static void main(String[] args)
+    {
+        Solution obj=new Solution();
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        System.out.println(obj.Watermelon(n));
+    }
+}
